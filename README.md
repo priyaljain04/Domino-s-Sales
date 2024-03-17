@@ -30,7 +30,7 @@ Domino's SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
 
 ## Technologies Used:
 
-   •	MySQL | SQL Server
+    •  MySQL | SQL Serve
 
     •	Tableau
 
@@ -40,9 +40,9 @@ Domino's SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
 
 Analyze key indicators for pizza sales data to gain insights into business performance. Specifically, calculate the following metrics:
 
-Total Revenue: The sum of the total price of all pizza orders.
-Average Order Value: The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
-Total Pizzas Sold: The sum of the quantities of all pizzas sold.
-Total Orders: The total number of orders placed.
-Average Pizzas Per Order: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
+1. Total Revenue: The sum of the total price of all pizza orders.
+2. Average Order Value: The average amount spent per order, calculated by dividing the total revenue by the total number of orders.
+4. Total Pizzas Sold: The sum of the quantities of all pizzas sold.
+5. Total Orders: The total number of orders placed.
+6. Average Pizzas Per Order: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
 
