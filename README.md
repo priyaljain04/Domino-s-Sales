@@ -69,28 +69,28 @@ An automated dashboard providing quick & latest sales insights in order to suppo
 1. Total Revenue:
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
 
-2. Average Order Value
+2. Average Order Value :
 SELECT (SUM(total_price) / COUNT(DISTINCT order_id)) AS Avg_order_Value FROM pizza_sales
 
-3. Total Pizzas Sold
+3. Total Pizzas Sold :
 SELECT SUM(quantity) AS Total_pizza_sold FROM pizza_sales
 
-4. Total Orders
+4. Total Orders :
 SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales
 
-5. Average Pizzas Per Order
+5. Average Pizzas Per Order :
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) / 
 CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2))
 AS Avg_Pizzas_per_order
 FROM pizza_sales
 
-6. Hourly Trend for Total Pizzas Sold
+6. Hourly Trend for Total Pizzas Sold :
 SELECT DATEPART(HOUR, order_time) as order_hours, SUM(quantity) as total_pizzas_sold
 from pizza_sales
 group by DATEPART(HOUR, order_time)
 order by DATEPART(HOUR, order_time)
 
-7. Weekly Trend for Orders
+8. Weekly Trend for Orders :
 SELECT 
     DATEPART(ISO_WEEK, order_date) AS WeekNumber,
     YEAR(order_date) AS Year,
@@ -103,20 +103,20 @@ GROUP BY
 ORDER BY 
     Year, WeekNumber;
 
-8. % of Sales by Pizza Category
+9. % of Sales by Pizza Category :
 SELECT pizza_category, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
 GROUP BY pizza_category
 
-9. % of Sales by Pizza Size
+10. % of Sales by Pizza Size:
 SELECT pizza_size, CAST(SUM(total_price) AS DECIMAL(10,2)) as total_revenue,
 CAST(SUM(total_price) * 100 / (SELECT SUM(total_price) from pizza_sales) AS DECIMAL(10,2)) AS PCT
 FROM pizza_sales
 GROUP BY pizza_size
 ORDER BY pizza_size
 
-10. Total Pizzas Sold by Pizza Category
+11. Total Pizzas Sold by Pizza Category :
 SELECT pizza_category, SUM(quantity) as Total_Quantity_Sold
 FROM pizza_sales
 WHERE MONTH(order_date) = 2
@@ -147,5 +147,5 @@ ORDER BY Total_Quantity_Sold DESC
 Based on the dashboards Insights:
 1. HOURS - Peak orders are between 12:00 PM and 1 PM and in evening from 4:00 PM to 7:00 PM. 
 2. WEEKS - Significant variations in weekly orders, with highest peak during the 4th week from the month of Dec.
-
-
+3. CATEGORY -Classic Category contributes to maximum Sales, Total Orders & Total Pizza Sold.
+4. SIZE - Large Pizza Size contributes to maximum Sales.
