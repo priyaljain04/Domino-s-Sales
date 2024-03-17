@@ -71,9 +71,16 @@ An automated dashboard providing quick & latest sales insights in order to suppo
 ![image](https://github.com/priyaljain04/Dominos-Sales/assets/44484014/367f01b0-cf5d-493a-b28d-28457663ead2)
 
 
+![image](https://github.com/priyaljain04/Dominos-Sales/assets/44484014/7929440a-7d31-451b-9b62-6c774602ff57)
+
+
+
 
 
 
 # RECOMMENDATION:
 Based on the dashboards Insights:
+1. HOURS - Peak orders are between 12:00 PM and 1 PM and in evening from 4:00 PM to 7:00 PM. 
+2. WEEKS - Significant variations in weekly orders, with highest peak during the 4th week from the month of Dec.
+
 
