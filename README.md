@@ -1,13 +1,12 @@
 # Domino's-Sales-Insight : Data-Analysis-using-SQL-and-TABLEAU
 
 # OVERVIEW:
-PROJECT NAME
-PROBLEM STATEMENTS
-APPROACH - PROJECT PLANNING & AIMS GRID
-DATA ANALYST APPROACH
-DATA ANALYSIS USING SQL
-DATA ANALYSIS USING TABLEAU
-NOTE
+1. PROJECT NAME
+2. PROBLEM STATEMENTS
+3. APPROACH - PROJECT PLANNING & AIMS GRID
+4. DATA ANALYSIS USING SQL
+5. DATA ANALYSIS USING TABLEAU
+6. NOTE
 
 
 # PROJECT NAME:
@@ -45,4 +44,36 @@ Analyze key indicators for pizza sales data to gain insights into business perfo
 4. Total Pizzas Sold: The sum of the quantities of all pizzas sold.
 5. Total Orders: The total number of orders placed.
 6. Average Pizzas Per Order: The average number of pizzas sold per order, calculated by dividing the total number of pizzas sold by the total number of orders.
+
+# APPROACH - PROJECT PLANNING & AIMS GRID
+
+## Purpose: What? Why? What do we want to achieve?
+To unlock sales insights that are not visible before for sales team for decision support & automate them to reduced manual time spent in data gathering.
+
+## Stake Holders: Who will be involved?
+ •	Sales Director
+ •	I.T. Team
+ •	Customer Service Team
+ •	Data & Analytics Team
+
+## End Result: What do we want to achieve?
+An automated dashboard providing quick & latest sales insights in order to support data driven decision making.
+
+## Success Criteria: What will be our success criteria?
+  •	Dashboards uncovering sales order insights with latest data available.
+  •	Sales team able to take better decision & prove 10% cost savings of total spend.
+  •	Sales analysts stop data gathering manually in order to save 20% of their business time & reinvest it in value added activity.
+
+
+# DATA ANALYSIS USING TABLEAU:
+
+
+![image](https://github.com/priyaljain04/Dominos-Sales/assets/44484014/367f01b0-cf5d-493a-b28d-28457663ead2)
+
+
+
+
+
+# RECOMMENDATION:
+Based on the dashboards Insights:
 
