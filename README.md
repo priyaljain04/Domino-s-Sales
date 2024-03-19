@@ -16,12 +16,10 @@ Domino's SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
 
     •	Performed Data Cleaning, Analysing and Visualization on Pizza company sales insights.
 
-    •	Developed ETL mappings using SQL to extract the data from unstructured data and 
-            transformed it to the staging area to conduct data cleaning.
+    •	Integrated SQL Server for efficient data handling.
             
-    •	Developed a Tableau dashboard to perform analysis, producing quantitative visualizations 
-            in Tableau to draw valuable insights based on different parameters affecting the company 
-            performance and further provide business solutions.
+    •	Developed a Tableau dashboard to perform analysis, producing visualizations in Tableau to draw valuable insights based on different parameters affecting the company 
+        performance and further provide business solutions.
             
 ## About Domino's:
 
