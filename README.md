@@ -18,7 +18,7 @@ Domino's SALES INSIGHT – DATA ANALYSIS USING SQL AND TABLEAU
     •	Integrated SQL Server for efficient data handling.
             
     •	Developed a Tableau dashboard to perform analysis, producing visualizations in Tableau to draw valuable insights based on different parameters affecting the company 
-        performance and further provide business solutions.
+         performance and further provide business solutions.
             
 ## About Domino's:
 
